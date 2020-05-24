@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="FirstGitHub.Views.NewItemPage"
              Title="New Item">
-    
+
+    <Label x:Name="lblTest" Text="Rizwan"/>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
         <ToolbarItem Text="Save" Clicked="Save_Clicked" />
